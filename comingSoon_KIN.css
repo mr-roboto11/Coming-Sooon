@@ -1,0 +1,111 @@
+body{   background-color:#a1c3ff;
+     background-image: url(/Kin_Logo.gif);
+     /* background-color: #000; */
+     background-position: center;
+     text-align: center;
+     margin: 0;
+}
+
+
+h2{
+     color: #fff;
+}
+
+#FACTZ{
+     font-size: 1em;
+     color: #000;
+     border: 3px solid #000;
+     background-color: #0d6efd;
+     border-radius: 10px;
+     box-shadow: 5px 7px 5px rgb(255, 255, 255);
+     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
+     word-wrap: break-word;
+     padding: 20px;
+     
+}
+
+.clockFont{
+     border: 3px solid #ffffff;
+     background-color: rgb(0, 0, 0);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     height: 5vh;
+     border-radius: 10px;
+     box-shadow: 5px 7px 10px #fff;
+     
+}
+
+div.countdownContainer{
+     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
+     padding: 5%;
+     border-radius: 10px;
+     border-bottom: 5px solid #0d6efd;
+     border-right: 2px solid #0d6efd;
+     margin-top: 2.5%;
+     margin-bottom: 2.5%;
+     margin-left: 4rem;
+     margin-right: 4rem;
+}
+
+#countdown{
+     color: #0d6efd;
+     font-size: 4vh;
+     
+}
+
+footer{
+     position:relative;
+     background-color: #000;
+     height: 10vh;
+     bottom: 0;
+     left: 0;
+     width:100%;
+     margin: 0;
+     padding: 0;
+}
+footer>h2{
+     position:relative;
+     background-color: #000;
+     height: 10vh;
+     bottom: 0;
+     left: 0;
+     top: 50px;
+     width:100%;
+     margin: 0;
+     padding: 0;
+}
+
+a{
+     text-decoration: none;
+     color: #a1c3ff;
+}
+
+p#artstation{
+     font-size: 1em;
+     color: #000;
+     border: 3px solid #000;
+     background-color: #0d6efd;
+     border-radius: 10px;
+     box-shadow: 5px 7px 5px rgb(255, 255, 255);
+     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
+     word-wrap: break-word;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding: 5px;
+}
+
+@media screen and (max-width: 500px){
+     div.countdownContainer{
+          background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
+          padding: 5%;
+          border-radius: 10px;
+          border-bottom: 5px solid #0d6efd;
+          border-right: 2px solid #0d6efd;
+          margin-top: 2.5%;
+          margin-bottom: 2.5%;
+          margin-left: 1rem;
+          margin-right: 1rem;
+     }
+
+     
+}
+
