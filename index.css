@@ -93,7 +93,7 @@ p#artstation{
      padding: 5px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
      div.countdownContainer{
           background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
           padding: 5%;
