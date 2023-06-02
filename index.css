@@ -79,7 +79,7 @@ a{
      color: #a1c3ff;
 }
 
-p#artstation{
+.artstation{
      font-size: 1em;
      color: #000;
      border: 3px solid #000;
@@ -92,6 +92,8 @@ p#artstation{
      margin-right: 10%;
      padding: 5px;
 }
+
+
 
 @media screen and (max-width: 1000px){
      div.countdownContainer{
