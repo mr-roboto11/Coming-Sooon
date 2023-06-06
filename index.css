@@ -1,6 +1,5 @@
 body{   background-color:#a1c3ff;
      background-image: url(./docs/assets/images/Kin_Logo.gif);
-     /* background-color: #000; */
      background-position: center;
      text-align: center;
      margin: 0;
@@ -98,7 +97,7 @@ footer>h2{
 
 a{
      text-decoration: none;
-     color: #a1c3ff;
+     color: #0d6efd;
 }
 
 p.artstation{
