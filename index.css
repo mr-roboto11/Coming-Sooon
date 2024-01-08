@@ -11,7 +11,7 @@ h2{
 }
 
 #news-globe{
-     height: auto;
+     height: 20vh;
      width: auto;
      max-width: 400px;
      min-width: 250px;
@@ -134,7 +134,7 @@ p.artstation{
 @media screen and (max-width: 1000px){
      div.countdownContainer{
           background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
-          padding: 4%;
+          padding: 2%;
           border-radius: 10px;
           border-bottom: 5px solid #fd0d0d;
           border-right: 2px solid #fd0d0d;
@@ -152,7 +152,7 @@ p.artstation{
 @media screen and (min-width: 1250px){
      div.countdownContainer{
           background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
-          padding: 5%;
+          padding: 2%;
           border-radius: 10px;
           border-bottom: 5px solid #fd0d0d;
           border-right: 2px solid #fd0d0d;
