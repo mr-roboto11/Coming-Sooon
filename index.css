@@ -10,7 +10,7 @@ h2{
      color: #fff;
 }
 
-.news-globe{
+#news-globe{
      height: auto;
      width: auto;
      max-width: 400px;
@@ -162,5 +162,8 @@ p.artstation{
           margin-right: 15rem;
      }
 
-
+     #news-globe{
+          max-width: 525px;
+     }     
+     
 }
