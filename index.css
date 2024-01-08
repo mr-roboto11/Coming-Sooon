@@ -10,9 +10,9 @@ h2{
      color: #fff;
 }
 
-#news-globe{
-     height: 500px;
-     width: 500px;
+.news-globe{
+     height: auto;
+     width: auto;
      max-width: 400px;
      min-width: 250px;
      border-radius: 10px;
