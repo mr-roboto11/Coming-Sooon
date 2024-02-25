@@ -1,5 +1,6 @@
 body{   background-color:#a1c3ff;
-     background-image: url(images/corruption.PNG);
+     background-image: url(images/KN_STR_TITLE9.jpg);
+     /* background: linear-gradient(rgba(0, 0, 0, 0.714),rgb(255, 255, 255)); */
      background-position: center;
      text-align: center;
      margin: 0;
@@ -16,14 +17,14 @@ h2{
      max-width: 400px;
      min-width: 250px;
      border-radius: 10px;
-     border-top: 3px solid #fd0d0d;
+     border-top: 3px solid #390dfd;
 }
 
 .FACTZ{
      font-size: .75em;
-     color: #000;
+     color: #ff009d;
      border: 3px solid #000;
-     background-color: #fd0d0d;
+     background-color: #390dfd;
      border-radius: 10px;
      box-shadow: 5px 7px 5px rgb(255, 255, 255);
      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
@@ -34,7 +35,7 @@ h2{
      font-size: 1em;
      color: #000;
      border: 3px solid #fff;
-     background-color: rgb(255, 0, 0, 0.714);
+     background-color: rgba(0, 8, 255, 0.714);
      border-radius: 10px;
      box-shadow: 5px 7px 5px rgb(255, 255, 255);
      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
@@ -43,9 +44,9 @@ h2{
 }
 .FACTZ2:hover{
      font-size: 1em;
-     color: #fd0d0d;
+     color: #390dfd;
      border: 3px solid #fff;
-     background:radial-gradient(#000, rgba(255, 255, 255, 0.37));
+     background:radial-gradient(#ff009d, rgba(255, 255, 255, 0.37));
      border-radius: 10px;
      box-shadow: 5px 7px 10px rgb(0, 0, 0);
      text-shadow: 5px 5px 5px rgb(0, 0, 0);
@@ -56,7 +57,7 @@ h2{
 
 .clockFont{
      border: 3px solid #ffffff;
-     background-color: rgb(0, 0, 0);
+     background-color: rgb(255, 255, 255);
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      height: 5vh;
      border-radius: 10px;
@@ -68,8 +69,8 @@ div.countdownContainer{
      background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
      /* padding: 2%; */
      border-radius: 10px;
-     border-bottom: 5px solid #fd0d0d;
-     border-right: 2px solid #fd0d0d;
+     border-bottom: 5px solid #390dfd;
+     border-right: 2px solid #390dfd;
      margin-top: 2.5%;
      margin-bottom: 2.5%;
      margin-left: 15rem;
@@ -77,7 +78,7 @@ div.countdownContainer{
 }
 
 #countdown{
-     color: #fd0d0d;
+     color: #ff009d;
      font-size: 4vh;
      
 }
@@ -85,7 +86,7 @@ div.countdownContainer{
 #corruption{
      font-size:larger;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     text-decoration: underline;
+
 }
 
 footer{
@@ -119,7 +120,7 @@ p.artstation{
      font-size: 1em;
      color: #000;
      border: 3px solid #000;
-     background-color: #fd0d0d;
+     background-color: #390dfd;
      border-radius: 10px;
      box-shadow: 5px 7px 5px rgb(255, 255, 255);
      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
@@ -136,8 +137,8 @@ p.artstation{
           background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
           padding: 2%;
           border-radius: 10px;
-          border-bottom: 5px solid #fd0d0d;
-          border-right: 2px solid #fd0d0d;
+          border-bottom: 5px solid #390dfd;
+          border-right: 2px solid #390dfd;
           margin-top: 2.5%;
           margin-bottom: 2.5%;
           margin-left: 3rem;
@@ -154,8 +155,8 @@ p.artstation{
           background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.8));
           padding: 2%;
           border-radius: 10px;
-          border-bottom: 5px solid #fd0d0d;
-          border-right: 2px solid #fd0d0d;
+          border-bottom: 5px solid #390dfd;
+          border-right: 2px solid #390dfd;
           margin-top: 2.5%;
           margin-bottom: 2.5%;
           margin-left: 15rem;
