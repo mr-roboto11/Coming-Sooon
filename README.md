@@ -1,6 +1,6 @@
 # KINs Contact Resume
 
-<img src="kin-nft-dapp\frontend\public\kin_Logo.gif" width="500">
+<img src="https://cdna.artstation.com/p/assets/images/images/063/898/644/original/kin-ceo-kin-logo.gif?1686645612" width="500">
 
 ## KIN©️ 2020
 
