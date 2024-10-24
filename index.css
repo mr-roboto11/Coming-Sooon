@@ -12,7 +12,7 @@ body{   background-color:#a1c3ff;
 h2{
      color: #fff;
 }
-
+/* 
 #news-globe{
      height: 20vh;
      width: auto;
@@ -20,24 +20,25 @@ h2{
      min-width: 250px;
      border-radius: 10px;
      border-top: 3px solid #390dfd;
-}
+} */
 
 .FACTZ{
      font-size: .75em;
      color: #ffffff;
      border: 3px solid #000;
-     background-color: #390dfd;
+     background-color: #ff4d00;
      border-radius: 10px;
      box-shadow: 5px 7px 5px rgb(255, 255, 255);
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.714);
      word-wrap: break-word;
      padding: 20px;
+     letter-spacing: .05em;
 }
 .FACTZ2{
      font-size: 1em;
      color: #000;
      border: 3px solid #fff;
-     background-color: rgba(0, 8, 255, 0.714);
+     background-color: #ff4d00;
      border-radius: 10px;
      box-shadow: 5px 7px 5px rgb(255, 255, 255);
      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.714);
