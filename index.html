@@ -25,7 +25,11 @@
 
      <script>
      // Set the date we're counting down to
+<<<<<<< HEAD
      var countDownDate = new Date("Dec 31, 2024 12:00:00").getTime();
+=======
+     var countDownDate = new Date("Aug 1, 2024 09:00:00").getTime();
+>>>>>>> 712f0c6182a652b414979889692f827aae33980e
      
      // Update the count down every 1 second
      var x = setInterval(function() {
@@ -43,9 +47,15 @@
        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
      
        // Display the result in the element with id="demo"
+<<<<<<< HEAD
        document.getElementById("countdown").innerHTML =  "<h1 class='FACTZ'><em><strong id='corruption'>ThinKing Man Countdown</strong></em> </h1>" + "<p class=clockFont>Days</p> " + days +  "<p class=clockFont>Hours</p> "
        +hours + "<p class=clockFont>Minutes</p> " + minutes + "<p class=clockFont>Seconds</p> " + seconds  +  '<a href=resume.html target=_blank><p class=FACTZ2>Resume</a></p>';
      
+=======
+       document.getElementById("countdown").innerHTML =  "<h1 class='FACTZ'><em><strong id='corruption'>Site Launch Countdown</strong></em> <br><br> Countdown to the KIN Official Site</p></h1>" + "<p class=clockFont>Days</p> " + days +  "<p class=clockFont>Hours</p> "
+       +hours + "<p class=clockFont>Minutes</p> " + minutes + "<p class=clockFont>Seconds</p> " + seconds  +  '<a href=resume.html target=_blank><p class=FACTZ2>Resume</a></p>'
+     +  '<a href=store.html target=_blank><p class=FACTZ2>Store</a></p>';
+>>>>>>> 712f0c6182a652b414979889692f827aae33980e
        // If the count down is finished, write some text
        if (distance < 0) {
          clearInterval(x);

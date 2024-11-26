@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="shortcut icon" href="/images/small_logo2.png" type="image/x-icon">
+</head>
+<style>
+     
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+*  {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     scroll-behavior: smooth;
+}
+
+body{
+     font-family: 'Londrina Solid', cursive;
+     font-size: 21px;
+     line-height: 1.5;
+     color: #000;
+     background: #a1c3ff;
+     
+     
+}
+
+a{
+     text-decoration: none;
+}
+
+a:link{
+     color: #000;
+}
+a:visited{
+     color: #000;
+}
+
+img{
+     max-width: 100%;
+     display:block;
+     justify-items: center;
+     margin-bottom: 25px;
+}
+
+h1, h2{
+     margin-bottom: 15px;
+}
+
+ul {
+     list-style-type: none;
+}
+
+footer > div.card-footer{
+     padding: 20px;
+     margin-top: 20px;   
+     
+}
+
+.container{
+     min-width: 375px;
+     margin: 0 auto;
+     padding: 0 30px;
+     
+}
+
+.navbar{
+     background: #3474e6;
+     background-image: linear-gradient( rgba(51, 16, 251, 0.8),rgba(0, 0, 0, 0.6));
+     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+     color: #fff;
+     height: 60px;
+}
+
+.navbar a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.25em;
+     font-weight: bold;
+}
+
+.navbar a:hover{
+     color: black;
+}
+
+.navbar .logo{
+     font-size: x-large;
+     font-weight: bold;
+     text-align: center;
+
+}
+
+.navbar .container{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     height: 100%;
+}
+
+.navbar ul{
+     display: flex;
+}
+
+.navbar ul li {
+     margin-left: 20px;
+}
+
+.header {
+     background-color: #fff;
+     color: #fff;
+     min-height: auto;
+
+}
+
+.header h1{
+     font-size: 3rem;
+     font-weight: bold;
+     line-height: 1.2;
+}
+
+/* .header img{
+     max-width: auto;
+} */
+
+.header .container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.boxes .container{
+     justify-content: space-between;
+}
+
+#terms{
+    padding: 0; 
+}
+
+#terms-conditions{
+     color: #fff;
+     text-shadow: none;
+}
+
+.box{
+     flex:1 1 500px;
+     background: #0a51cc;
+     background-image: linear-gradient( rgba(51, 16, 251, 0.2),rgba(51, 16, 251, 0.8),rgba(0, 0, 0, 0.6));
+	border-bottom: .1px solid rgba(255, 255, 255, .15);
+	border-left: .1px solid rgba(255, 255, 255, 0.15);
+     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+     text-align: #fff;
+     border-radius: 10px;
+     margin: 20px 10px;
+     box-shadow: 2px 2
+     px 1px rgba(255, 255, 255);
+     padding: 15px 20px;
+     text-align: center;
+}
+.box3{
+     flex:1 1 500px;
+     background: #0a51cc;
+     background-image: linear-gradient( rgba(16, 251, 102, 0.2),rgba(16, 251, 28, 0.8),rgba(0, 0, 0, 0.6));
+	border-bottom: .1px solid rgba(255, 255, 255, .15);
+	border-left: .1px solid rgba(255, 255, 255, 0.15);
+     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+     text-align: #fff;
+     border-radius: 10px;
+     margin: 20px 10px;
+     box-shadow: 2px 2
+     px 1px rgba(255, 255, 255);
+     padding: 7px 7px;
+     text-align: center;
+}
+
+.box i {
+     margin-right: 10px;
+}
+
+@media (min-width: 375px) {
+     .header .container{
+          flex-direction: column;
+          text-align: center;
+     }
+     .boxes .container{
+          display: flex;
+          flex-wrap:wrap ;
+
+     }
+}
+</style>
+<body>
+          <nav class="navbar">
+               <div class="container ">
+                    <div class="logo "><a href="./resume.html">KINs Karicatures</a></div>
+               </div>
+          </nav>
+
+  <header class="header">
+    <div class="container">
+      <div>
+           <img src="./images/Kin_Logo.gif" alt="">
+      </div>
+
+ </div>
+  </header>
+  <section class="boxes">
+       <div class="container">
+            <div class="box">
+                 <h1>Store</h1>
+                 <a href="index.html"><button class="btn btn-dark btn-lg">⬅️ Back</button></a>
+               </div>
+          </div>
+  </section>
+<br>
+
+
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1Oa4DqEpGuCj2pw4E31roDVO"
+publishable-key="pk_live_51OHp8eEpGuCj2pw4elfh19JVwKy19YqG14DhqdLGJNAgsF3JOQVtgUrZR7oIpQZ7doNbcIEPGdmKpK0v0xoLpkNf00VX2r9m43">
+</stripe-pricing-table>
+
+<div class="d-grid gap-2">
+     <a style="margin: 10px;" type="button" class="btn btn-primary btn-outline-warning text-warning border-3" href="https://buy.stripe.com/5kAg1A3NTfi8a6A28e" target="_blank"><h1>Donate</h1></a>
+   </div> 
+
+  <footer>
+    <div class="card-footer text-white bg-black text-justify text-center">
+      <strong><em>KIN ©</em></strong> Inc. All rights reserved. 
+      <br>
+      <u><strong><a class="text-primary" href="/privacyTerms.html" target="_blank">Privacy Policy</a></strong></u> and <u><strong><a class="text-primary" href="/terms_conditions.html" target="_blank">Terms of Use</a></strong></u>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
