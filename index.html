@@ -11,12 +11,19 @@
 </head>
 
 <body>
+
+
+  
   
   <!-- COUNTER -->
   
   
   <div class="countdownContainer">
+<<<<<<< HEAD
     <div class="img-div"><img id="news-globe" src="images/pumpkin.gif" alt="">
+=======
+    <div class="img-div"><img id="news-globe" src="images/thinking.gif" alt="">
+>>>>>>> 1d7d56057a07d84e318df09ad58f4ce1eac95931
       <div id="countdown">
     </div>
       
@@ -25,7 +32,7 @@
 
      <script>
      // Set the date we're counting down to
-     var countDownDate = new Date("Aug 1, 2024 09:00:00").getTime();
+     var countDownDate = new Date("Mar 5, 2025 12:00:00").getTime();
      
      // Update the count down every 1 second
      var x = setInterval(function() {
@@ -43,9 +50,12 @@
        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
      
        // Display the result in the element with id="demo"
-       document.getElementById("countdown").innerHTML =  "<h1 class='FACTZ'><em><strong id='corruption'>Site Launch Countdown</strong></em> <br><br> Countdown to the KIN Official Site</p></h1>" + "<p class=clockFont>Days</p> " + days +  "<p class=clockFont>Hours</p> "
-       +hours + "<p class=clockFont>Minutes</p> " + minutes + "<p class=clockFont>Seconds</p> " + seconds  +  '<a href=resume.html target=_blank><p class=FACTZ2>Resume</a></p>'
-     +  '<a href=store.html target=_blank><p class=FACTZ2>Store</a></p>';
+
+       document.getElementById("countdown").innerHTML =  "<h1 class='FACTZ'><em><strong id='corruption'>ThinKing Man Countdown</strong></em> <p class='text-warning'>Cogito, ergo sum!!!</p></h1>" + "<p class=clockFont>Days</p> " + days +  "<p class=clockFont>Hours</p> "
+       +hours + "<p class=clockFont>Minutes</p> " + minutes + "<p class=clockFont>Seconds</p> " + seconds  +  '<a href=resume.html target=_blank><p class=FACTZ2>Resume</a></p>';
+     
+       
+
        // If the count down is finished, write some text
        if (distance < 0) {
          clearInterval(x);
